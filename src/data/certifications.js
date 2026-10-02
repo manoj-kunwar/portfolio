@@ -1,0 +1,38 @@
+export const certifications = [
+  {
+    id: "ibm-ai",
+    title: "Artificial Intelligence Fundamentals",
+    issuer: "IBM",
+    year: "2024",
+    badge: "AI & Machine Learning",
+    description: "Core concepts in neural networks, natural language processing, machine learning pipelines, and generative AI models.",
+    skillsGained: ["AI Principles", "Machine Learning Basics", "Model Evaluation"],
+  },
+  {
+    id: "aws-academy",
+    title: "AWS Academy Cloud Foundations",
+    issuer: "Amazon Web Services (AWS)",
+    year: "2024",
+    badge: "Cloud Architecture",
+    description: "Fundamental knowledge of AWS cloud computing, global infrastructure, security, identity access management, and pricing models.",
+    skillsGained: ["Cloud Infrastructure", "IAM", "S3 & EC2", "VPC Networking"],
+  },
+  {
+    id: "aws-practitioner",
+    title: "AWS Cloud Practitioner Essentials",
+    issuer: "Amazon Web Services (AWS)",
+    year: "2024",
+    badge: "Cloud Computing",
+    description: "Detailed study of cloud architecture principles, serverless compute, database integration, and compliance frameworks.",
+    skillsGained: ["Serverless Architecture", "Cloud Database Strategy", "AWS Well-Architected Framework"],
+  },
+  {
+    id: "smart-coder",
+    title: "Smart Coder — Diamond Certificate",
+    issuer: "Smart Interviews",
+    year: "2024",
+    badge: "Advanced Algorithms",
+    description: "Advanced algorithmic problem solving, time-space complexity optimization, graph algorithms, and dynamic programming.",
+    skillsGained: ["Dynamic Programming", "Graph Traversal", "Backtracking", "Systematic Problem Decomposition"],
+  },
+];

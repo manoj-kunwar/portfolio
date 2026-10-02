@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manoj Kunwar — Resume</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      max-w: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      color: #000;
+      line-height: 1.4;
+      background: #fff;
+    }
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 26px;
+      margin-bottom: 4px;
+      letter-spacing: 1px;
+    }
+    .contact-line {
+      text-align: center;
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+    .contact-line a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 4px;
+    }
+    h2 {
+      font-size: 16px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #000;
+      padding-bottom: 2px;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+    .flex-between {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .bold { font-weight: bold; }
+    .italic { font-style: italic; }
+    ul {
+      margin: 4px 0 12px 18px;
+      padding: 0;
+    }
+    li {
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+    p {
+      font-size: 13px;
+      margin: 4px 0;
+    }
+    @media print {
+      body { margin: 0; padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Manoj Kunwar</h1>
+  <div class="contact-line">
+    +91-6355499709 | manojkunwar626@gmail.com | 
+    <a href="https://www.linkedin.com/in/manoj-kunwar56" target="_blank">LinkedIn</a> | 
+    <a href="https://github.com/manoj-kunwar" target="_blank">GitHub</a> | 
+    <a href="https://leetcode.com/u/Manojkunwar/" target="_blank">LeetCode</a> | 
+    <a href="https://www.codechef.com/users/manojkunwar_76" target="_blank">CodeChef</a>
+  </div>
+
+  <h2>Education</h2>
+  <div class="flex-between">
+    <span class="bold">Parul University</span>
+    <span>Dhangadhi, Kailali, Nepal</span>
+
+  </div>
+  <div class="flex-between">
+    <span class="italic">B.Tech in Computer Science and Engineering</span>
+    <span>2023 – 2027 | CGPA: 7.64</span>
+  </div>
+
+  <h2>Projects</h2>
+  <div class="flex-between">
+    <div><span class="bold">Wanderlust — Property Hosting & Rental Platform</span></div>
+    <div>
+      <a href="https://staynest-btlq.onrender.com" target="_blank">Live</a> | 
+      <a href="https://github.com/manoj-kunwar" target="_blank">GitHub</a>
+    </div>
+  </div>
+  <p class="italic">Node.js · Express.js · MongoDB · EJS · Bootstrap · Passport.js · Cloudinary · Mapbox</p>
+  <p>A production-deployed, full-stack property rental marketplace built on the MVC pattern. Users can list, search, filter, and review properties with secure authentication, cloud media storage, and interactive geolocation maps, handling real-world traffic on Render and MongoDB Atlas.</p>
+  <ul>
+    <li>Architected 15+ REST API endpoints following MVC architecture; launched the platform on Render and MongoDB Atlas, sustaining 100+ concurrent sessions with sub-300ms average API response time.</li>
+    <li>Engineered compound MongoDB indexes on location, price, and category fields, reducing property-filter query latency by approx. 40% versus a collection-scan baseline.</li>
+    <li>Implemented Passport.js and Express-session authentication with route-level authorization guards, securing all protected resources against unauthorized access.</li>
+    <li>Built a Multer + Cloudinary media pipeline processing 500+ image uploads with automatic WebP optimization; integrated Mapbox GL for geolocation-indexed property maps.</li>
+  </ul>
+
+  <div class="flex-between">
+    <div><span class="bold">CareOS — Doctor Appointment & Telemedicine Platform</span></div>
+    <div>
+      <a href="https://doctor-and-patient.vercel.app/" target="_blank">Live</a> | 
+      <a href="https://github.com/manoj-kunwar" target="_blank">GitHub</a>
+    </div>
+  </div>
+  <p class="italic">React.js · Node.js · Express.js · MongoDB · Tailwind CSS · ZegoCloud · JWT</p>
+  <p>A MERN-stack telemedicine platform with real-time video consultations, appointment booking, and secure role-based access control across three user roles (Admin, Doctor, Patient), integrating ZegoCloud WebRTC and stateless JWT-based RBAC, hosted on Vercel.</p>
+  <ul>
+    <li>Engineered real-time video consultations using ZegoCloud WebRTC, serving 50+ active users across Admin, Doctor, and Patient role types.</li>
+    <li>Designed stateless JWT authentication with RBAC middleware, eliminating unauthorized cross-role data access across all 10+ secured API endpoints.</li>
+    <li>Optimized appointment-listing queries via a MongoDB aggregation pipeline, cutting database round-trips from O(n) to O(1) by eliminating N+1 query patterns.</li>
+    <li>Abstracted ZegoCloud, Cloudinary, and Mapbox into reusable service modules, reducing code duplication by approximately 30% and improving maintainability.</li>
+  </ul>
+
+  <h2>Achievements & Competitive Programming</h2>
+  <ul>
+    <li>Solved 1025+ DSA problems across LeetCode, GeeksforGeeks, HackerRank, Codeforces, and CodeChef.</li>
+    <li>Achieved a peak LeetCode contest rating of 1668 (max 1580) across 30+ rated contests; current CodeChef rating of 1384 (max 1386) with participation in 17 rated contests.</li>
+    <li>Maintained a 266+ day coding streak and earned 7 achievement badges on Codolio.</li>
+    <li>Awarded the Smart Coder Diamond Certificate by Smart Interviews for outstanding performance in competitive programming.</li>
+  </ul>
+
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><span class="bold">Languages:</span> C, C++, JavaScript (ES6+)</li>
+    <li><span class="bold">Frontend:</span> React.js, Tailwind CSS, Bootstrap, HTML5, CSS3</li>
+    <li><span class="bold">Backend:</span> Node.js, Express.js, REST APIs, MVC Architecture, Redis</li>
+    <li><span class="bold">Databases:</span> MongoDB (Aggregation, Indexing), MySQL, Mongoose ODM</li>
+    <li><span class="bold">Authentication & Security:</span> JWT, Passport.js, Session Management, bcrypt</li>
+    <li><span class="bold">Cloud & DevOps:</span> AWS (Cloud Practitioner), Docker, MongoDB Atlas, Render, Vercel, Git, GitHub, Postman</li>
+    <li><span class="bold">Core CS Concepts:</span> Data Structures & Algorithms, Object-Oriented Programming (OOP), DBMS, Operating Systems, Computer Networks</li>
+  </ul>
+
+  <h2>Certifications</h2>
+  <ul>
+    <li>IBM: Artificial Intelligence Fundamentals</li>
+    <li>AWS: Cloud Practitioner Essentials & Academy Cloud Foundations</li>
+    <li>Smart Interviews: Smart Coder — Diamond Certificate</li>
+  </ul>
+
+  <script>
+    if (window.location.search.includes('print=true')) {
+      window.print();
+    }
+  </script>
+</body>
+</html>
